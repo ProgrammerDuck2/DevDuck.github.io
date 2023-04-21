@@ -1,0 +1,53 @@
+body
+{
+    background-image: url(/Images/KanonEvent.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+h1
+{
+    color: White;
+    font-family: "sans-serif","consolas";
+    font-weight: bold;
+    
+    margin: 50px;
+
+    text-align: center;
+}
+p
+{
+    color: rgb(255, 255, 255);
+    font-family: "sans-serif", "consolas";
+    font-size: 20px;
+
+    margin: 50px;
+
+    text-align: center;
+}
+
+#Title
+{
+    color: White;
+    font-family: "sans-serif","consolas";
+    font-weight: bold;
+    font-size: 60px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+#Menu
+{
+    position: relative;
+    top: 2px;
+
+
+    width: 50px;
+}
