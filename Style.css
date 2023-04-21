@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(./Images/KanonEvent.png);
+    /*background-image: url(./Images/KanonEvent.png); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,8 @@ hr
     align-items: center;
     height: 40px;
 
-    left: 20%;
+    display: block;
+    margin:0 auto;
 }
 #UpperMenu
 {
@@ -77,5 +78,26 @@ hr
     background-color: rgba(255, 255, 255, 0.3);
     padding: auto;
     height: 10%;
+    width: auto;
+
+    margin-top: .5%;
+}
+#WellInThatCase
+{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#GameLogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: transparent;
+    border: 0;
+
+    height: 70px;
     width: auto;
 }
