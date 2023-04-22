@@ -1,12 +1,12 @@
 body
 {
-    /*background-image: url(./Images/KanonEvent.png); */
+    background-image: url(./Images/curius.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    background-color: black;
+    background-color: rgb(19, 19, 19);
 }
 h1
 {
@@ -20,6 +20,8 @@ h1
 
     margin-left: 20%;
     margin-right: 20%;
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 p
 {
@@ -31,8 +33,10 @@ p
 
     text-align: center;
 
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 hr
 {
@@ -50,26 +54,21 @@ hr
 
     text-align: center;
 
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 5%;
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #Menu
 {
-    position: relative;
-
-    background-color: rgba(0, 0, 0, 0); 
-    border: 0px;
-    color: rgb(255, 255, 255);
-
-    font-family: "sans-serif","consolas";
-    font-size: 20px;
-
     align-items: center;
     height: 40px;
 
-    display: block;
-    margin:0 auto;
+    text-align: center;
+
+    margin-top: 10px;
+
 }
 #UpperMenu
 {
@@ -81,6 +80,16 @@ hr
     width: auto;
 
     margin-top: .5%;
+}
+#MenuButtons
+{
+    background-color: rgba(0, 0, 0, 0); 
+    border: 0px;
+    color: rgb(255, 255, 255);
+
+    font-family: "sans-serif","consolas";
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #WellInThatCase
 {
