@@ -15,13 +15,10 @@ h1
     color: White;
     font-family: "sans-serif","consolas";
     font-weight: bold;
-    
-    margin: 50px;
 
     text-align: center;
 
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 50px;
 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -31,12 +28,13 @@ p
     font-family: "sans-serif", "consolas";
     font-size: 20px;
 
-    margin: 50px;
-
-    text-align: center;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 25%;
     margin-right: 25%;
+
+    text-align: center;
+    
 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
