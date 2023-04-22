@@ -42,6 +42,8 @@ hr
 {
     margin-left: 20%;
     margin-right: 20%;
+
+    box-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #Title
 {
@@ -123,7 +125,9 @@ hr
     margin-right: 0;
 
     display: inline-block;
+}
 
-    
-    box-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+#Button
+{
+    text-decoration: none;
 }
