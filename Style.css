@@ -18,7 +18,7 @@ h1
 
     text-align: center;
 
-    margin-top: 50px;
+    margin-top: auto;
 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -79,6 +79,23 @@ hr
     border-bottom: 1px solid;
     border-color: white;
 }
+.GridContainer
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 100px;
+}
+.GridItem
+{
+    background-color: rgba(0, 0, 0, .3);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    height: 500px;
+    width: 450px;
+}
 #MenuButtons
 {
     background-color: rgba(0, 0, 0, 0); 
@@ -93,13 +110,6 @@ hr
     margin-left: 10px;
     margin-right: 10px;
 }
-#WellInThatCase
-{
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 #GameLogo
 {
     display: block;
@@ -110,7 +120,7 @@ hr
     border: 0;
 
     height: 100px;
-    width: auto;
+    width: 90%;
 }
 
 #Vertical
