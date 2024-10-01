@@ -85,6 +85,10 @@ hr
     display: grid;
     grid-template-columns: 47% 47%;
     
+    @media (pointer: none), (pointer: coarse) {
+        grid-template-columns: 93%;
+    }
+
     gap: 5%;
     padding: 5%;
 }
