@@ -101,7 +101,7 @@ hr
     text-align: center;
     align-content: center;
     height: auto;
-    min-height: 250px;
+    min-height: 90%;
     width: auto;
 }
 #MenuButtons
@@ -128,6 +128,7 @@ hr
     border: 0;
 
     height: max-content;
+    max-height: 300px;
     max-width: 60%;
     width: 100%;
 }
