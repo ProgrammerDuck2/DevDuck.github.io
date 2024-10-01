@@ -96,6 +96,7 @@ hr
     text-align: center;
     align-content: center;
     height: auto;
+    min-height: 150px;
     width: auto;
 }
 #MenuButtons
@@ -121,8 +122,7 @@ hr
     background-color: transparent;
     border: 0;
 
-    padding: 10px;
-    height: auto;
+    height: max-content;
     max-width: 60%;
     width: auto;
 }
