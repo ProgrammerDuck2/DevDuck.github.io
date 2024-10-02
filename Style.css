@@ -86,7 +86,7 @@ hr
     grid-template-columns: 47% 47%;
     
     @media (pointer: none), (pointer: coarse) {
-        grid-template-columns: 97%;
+        grid-template-columns: 100%;
     }
 
     gap: 5%;
