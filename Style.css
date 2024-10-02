@@ -72,8 +72,13 @@ hr
     height: auto;
     width: auto;
 
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+
+    @media (pointer: none), (pointer: coarse) {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 
     text-align: center;
 
