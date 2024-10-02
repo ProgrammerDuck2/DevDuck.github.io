@@ -72,8 +72,8 @@ hr
     height: auto;
     width: auto;
 
-    padding-top: .5%;
-    padding-bottom: .5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
     text-align: center;
 
@@ -86,7 +86,7 @@ hr
     grid-template-columns: 47% 47%;
     
     @media (pointer: none), (pointer: coarse) {
-        grid-template-columns: 93%;
+        grid-template-columns: 97%;
     }
 
     gap: 5%;
