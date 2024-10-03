@@ -46,7 +46,7 @@ hr
 
     box-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-#Title
+h1.Title
 {
     color: White;
     font-family: "sans-serif","consolas";
@@ -110,10 +110,31 @@ a.MenuButtons
 {
 
 }*/
+div.Media
+{
+    width: auto;
+    height: fit-content;
+    display: flex;
+}
 iframe.Game
 {
+    border-style: none;
+    height: 700px;
+    width: 1080px;
+    display: block;
+    align-self: center;
+}
+iframe.Video
+{
+    border-style: none;
     height: 600px;
-    width: 960px;
+    width: 1065px;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    justify-content: center;
+    align-items: center;
 }
 div.GridContainer
 {
@@ -151,7 +172,6 @@ div.GridContainer
     border: 0;
 
     height: max-content;
-    max-height: 300px;
     max-width: 60%;
     width: 100%;
 }
