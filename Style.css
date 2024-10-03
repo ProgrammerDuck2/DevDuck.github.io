@@ -110,6 +110,11 @@ a.MenuButtons.hover
 {
 
 }
+iframe.Game
+{
+    height: 720px;
+    width: 1080px;
+}
 div.GridContainer
 {
     display: grid;
