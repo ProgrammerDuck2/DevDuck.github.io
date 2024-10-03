@@ -121,8 +121,10 @@ iframe.Game
     border-style: none;
     height: 700px;
     width: 1080px;
-    display: block;
-    align-self: center;
+
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 iframe.Video
 {
