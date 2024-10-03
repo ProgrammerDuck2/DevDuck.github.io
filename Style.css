@@ -79,6 +79,7 @@ div.UpperMenu
     height: fit-content;
     width: auto;
 
+
     @media (pointer: none), (pointer: coarse) {
         min-height: 10%;
     }
@@ -97,7 +98,7 @@ a.MenuButtons
     color: white;
     background-color: transparent;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 2vw  ;
     text-align: center;
 
     align-content: center;
@@ -114,6 +115,10 @@ a.MenuButtons
     margin-left: 10px;
     margin-right: 10px;
     */
+}
+a.MenuButtons.hover
+{
+
 }
 div.GridContainer
 {
