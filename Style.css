@@ -79,6 +79,10 @@ div.UpperMenu
     height: fit-content;
     width: auto;
 
+    @media (pointer: none), (pointer: coarse) {
+        min-height: 10%;
+    }
+
     border-bottom: 1px solid;
     border-color: white;
 
