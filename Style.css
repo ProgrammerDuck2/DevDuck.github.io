@@ -106,10 +106,10 @@ a.MenuButtons
 
     align-content: center;
 }
-a.MenuButtons.hover
+/*a.MenuButtons.hover
 {
 
-}
+}*/
 iframe.Game
 {
     height: 720px;
