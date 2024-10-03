@@ -135,6 +135,7 @@ div.GridContainer
     font-size: 20px;
     color: white;
     text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     align-content: center;
     height: auto;
     min-height: 90%;
