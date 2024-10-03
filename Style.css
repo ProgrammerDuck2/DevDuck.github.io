@@ -1,12 +1,12 @@
 body
 {
-    background-image: url(./Images/Background.gif);
+    /*background-image: url(./Images/Background.gif);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(40, 40, 40);
 
     margin: 0px;
     height: 100vw;
@@ -69,6 +69,10 @@ div.UpperMenu
 
     padding-left: 30%;
     padding-right: 30%;
+    @media (pointer: none), (pointer: coarse) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
     position: sticky;
     top: 0;
@@ -78,11 +82,6 @@ div.UpperMenu
     background-color: rgb(0, 0, 0);
     height: fit-content;
     width: auto;
-
-
-    @media (pointer: none), (pointer: coarse) {
-        min-height: 10%;
-    }
 
     border-bottom: 1px solid;
     border-color: white;
@@ -100,25 +99,12 @@ a.MenuButtons
     text-decoration: none;
     font-size: 4vh;
     @media (pointer: none), (pointer: coarse) {
-        font-size: 1vh;
+        font-size: 3vh;
     }
 
     text-align: center;
 
     align-content: center;
-    /*
-    background-color: rgba(0, 0, 0, 0); 
-    color: rgb(255, 255, 255);
-
-    font-family: "sans-serif","consolas";
-    font-size: auto;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-    border: 0px solid;
-
-    margin-left: 10px;
-    margin-right: 10px;
-    */
 }
 a.MenuButtons.hover
 {
