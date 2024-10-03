@@ -99,6 +99,10 @@ a.MenuButtons
     background-color: transparent;
     text-decoration: none;
     font-size: 4vh;
+    @media (pointer: none), (pointer: coarse) {
+        font-size: 1vh;
+    }
+
     text-align: center;
 
     align-content: center;
